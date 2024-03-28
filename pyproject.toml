@@ -9,6 +9,11 @@ python = "3.11.6"
 fastapi = {extras = ["all"], version = "^0.95.1"}
 loguru = "^0.7.0"
 PyYAML = "^6.0"
+langchain = "^0.1.13"
+label-studio = "^1.11.0"
+label-studio-sdk = "^0.0.32"
+langchain-openai = "^0.1.1"
+langchain-community = "^0.0.29"
 
 [tool.poetry.group.dev.dependencies]
 dvc = {extras = ["gs"], version = "^3.28.0"}
