@@ -67,7 +67,19 @@ make install
 poetry run pre-commit install
 ```
 
-### Pull data from DVC remote
+## Connect to GitHub
+
+- Create SSH key and pair it to be able to connect to Github
+- Initiate empty repo on Github with the same name: llm-eval-annotator
+- First commit locally and push:
+```bash
+   git remote add origin git@github.com:jeromeassouline/llm-eval-annotator.git
+  ```
+```bash
+   git push -u origin main
+  ```
+
+## Pull data from DVC remote
 
 - Make sure you have access to the DVC remote bucket (see bucket URL in `.dvc/config` file). If not, ask an administrator to give you access.
 - Pull the data:
