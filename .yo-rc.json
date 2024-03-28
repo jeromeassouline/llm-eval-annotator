@@ -1,0 +1,20 @@
+{
+  "generator-sicarator": {
+    "promptValues": {
+      "authorName": "Jerome",
+      "authorEmail": "jerome.assouline@sicara.com",
+      "ci": ".github",
+      "includeApi": true,
+      "apiInfrastructure": null,
+      "includeDvc": true,
+      "dvcRemoteType": "gs",
+      "includeStreamlit": true,
+      "includeDvcStreamlitUtils": true,
+      "includeDvcStreamlitExample": true
+    },
+    "projectName": "llm-eval-annotator",
+    "projectSlug": "llm-eval-annotator",
+    "projectDescription": "Project to test tools to evaluate and annotate LLM responses",
+    "dvcRemoteBucketName": "llm-eval-annotator-dvc-remote"
+  }
+}
